@@ -1,0 +1,8 @@
+[Unit]
+Description=Atgen A3 Cloud Client Interface
+
+[Service]
+ExecStart=/root/a3cli/a3cli --disable-ssl --port=7100
+
+[Install]
+WantedBy=multi-user.target
